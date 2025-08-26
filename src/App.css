@@ -1,0 +1,11 @@
+@import "tailwindcss";
+html{
+    scroll-behavior: smooth;
+}
+
+@theme{
+     --font-heading: "Poppins", "sans-serif";
+     --font-body: "Inter", "sans-serif";
+    --color-gold:"#D4AF37";
+    --color-dark: "#1A1A1A";
+}
