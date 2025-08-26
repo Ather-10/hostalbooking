@@ -194,7 +194,7 @@ export default function Navbar() {
 
         {/* Desktop nav links */}
         <div className="hidden lg:flex lg:gap-x-12">
-          <Link to="/" className="text-sm font-semibold leading-6 text-black hover:text-gray-900">
+          <Link to="/hostalbooking" className="text-sm font-semibold leading-6 text-black hover:text-gray-900">
             Home
           </Link>
           <Link to="/rooms" className="text-sm font-semibold leading-6 text-black hover:text-gray-900">
@@ -293,7 +293,7 @@ export default function Navbar() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  <Link to="/" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                  <Link to="/hostalbooking" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                     Home
                   </Link>
                   <Link to="/rooms" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
