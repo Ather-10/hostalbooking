@@ -22,7 +22,7 @@ export default function App() {
       <RouteChangeHandler>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/hostalbooking" element={<Home />} />
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/rooms" element={<FloorList />} />
         <Route path="/rooms/floor/:floorId" element={<RoomList />} />
