@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-   base: '/hostalbooking/'  // Adjust the base path as needed
+   base: '/hostalbooking/',  // Adjust the base path as needed
 })
