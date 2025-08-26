@@ -18,11 +18,13 @@ export default function About() {
       {/* Our Story */}
       <section className="py-16 px-6 container mx-auto">
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          <img
+          {/* <img
             src="/images/hostel-story.jpg"
             alt="Our Story"
             className="rounded-2xl shadow-lg"
-          />
+          /> */}
+          <img src={`${import.meta.env.BASE_URL}images/hostel-story.jpg`} alt="Our Story" className="rounded-2xl shadow-lg" />
+
           <div>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Story</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
