@@ -8,5 +8,7 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-   base: '/hostalbooking/',  // Adjust the base path as needed
+   base: process.env.NODE_ENV === "production" 
+    ? "/hostalbooking/"   // GitHub Pages
+    : "/", 
 })
