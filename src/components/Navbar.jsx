@@ -200,7 +200,7 @@ export default function Navbar() {
           <Link to="/rooms" className="text-sm font-semibold leading-6 text-black hover:text-gray-900">
             Rooms
           </Link>
-          <a href="#facilities" className="text-sm font-semibold leading-6 text-black hover:text-gray-900">
+          <a href="/#facilities" className="text-sm font-semibold leading-6 text-black hover:text-gray-900">
             Facilities
           </a>
           <Link to="about" className="text-sm font-semibold leading-6 text-black hover:text-gray-900">
